@@ -1,0 +1,48 @@
+
+var ftGUID_4232702="4560587BC95B4F";
+var ftConfID_4232702="0";
+var ftParams_4232702="ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fgoogleads.g.doubleclick.net%2Fpagead%2Fhtml%2Fr20220427%2Fr20110914%2Fzrt_lookup.html%3Ffsb%3D1%23RS-0-%26adk%3D1812271801%26client%3Dca-pub-1669785826962003%26fa%3D1%26ifi%3D10%26uci%3Da!a%26btvi%3D2%26xpc%3DcawpYL28g4%26p%3Dhttps%253A%2F%2Fwww.nufusu.com&us_privacy=${US_PRIVACY}&cachebuster=570797.2327734577";
+var ftKeyword_4232702="";
+var ftCustom_4232702="";
+var ftSection_4232702="";
+var ftSegment_4232702="";
+var ftSegmentList_4232702=[];
+var ftRuleMatch_4232702="0";
+var ftTimestamp_4232702="1651316936";
+var ftGeoC2_4232702="tr";
+var ftGeoState_4232702="33";
+var ftGeoCity_4232702="afetevler mah.";
+var ftISP_4232702="turk telekom";
+var ftSpeed_4232702="xdsl";
+var ftDMA_4232702="-1";
+var ftLong_4232702="34.56";
+var ftLat_4232702="36.79";
+var ftPostal_4232702="33110";
+var ftTimeZone_4232702="300";
+var ftMobileCarrier_4232702="";
+var ftImp4232702 = {};
+ftImp4232702.privacy = "x";
+ftImp4232702.guidAge = "673";
+ftImp4232702.impID = "DA88B8B7-2F8F-CF4E-AFB7-59A9ADE12F05";
+ftImp4232702.duid = "FT:4560587BC95B4F";
+
+ftImp4232702.ft_tpplid = "";
+ftImp4232702.ft_c = {};
+ftImp4232702.gdpr = "";
+ftImp4232702.gdpr_consent = "";
+ftImp4232702.gdpr_pd = "";
+ftImp4232702.oob_consent = "";
+ftImp4232702.gdprStoredConsent = "";
+ftImp4232702.us_privacy = "!!US_PRIVACY!";
+
+ftImp4232702.jsAppend = "1";
+(function(){
+    var tag = document.getElementById('ft_servedby_4232702') || (function(s){
+    	return s[s.length-1];
+    }(document.getElementsByTagName('script'))),
+           js = document.createElement('script');
+    js.src =
+"https://cdn.flashtalking.com/xre/423/4232702/3655206/js/j-4232702-3655206.js";
+    js.id = "ftscript_m4232702";
+    tag.parentNode.insertBefore(js, tag);
+}());

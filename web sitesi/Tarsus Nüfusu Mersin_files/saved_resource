@@ -1,0 +1,48 @@
+
+var ftGUID_4232702="4560587BC95B4F";
+var ftConfID_4232702="0";
+var ftParams_4232702="ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fgoogleads.g.doubleclick.net%2Fpagead%2Fads%3Fclient%3Dca-pub-1669785826962003%26output%3Dhtml%26h%3D100%26slotname%3D4309701902%26adk%3D2333970844%26adf%3D3215562993%26pi%3Dt.ma~as.4309701902%26w%3D1000%26lmt%3D1651316839%26rafmt%3D12%26psa%3D0%26format%3D1000x100%26url%3Dhttps%253A%252F%252Fwww.nufusu.com%252Filce%252Ftarsus_mersin-nufusu%26wgl%3D1%26uach%3DWyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTAxLjAuMTIxMC4zMiIsW10sbnVsbCxudWxsLCI2NCIsW1siIE5vdCBBO0JyYW5kIiwiOTkuMC4wLjAiXSxbIkNocm9taXVtIiwiMTAxLjAuMTIxMC4zMiJdLFsiTWljcm9zb2Z0IEVkZ2UiLCIxMDEuMC4xMjEwLjMyIl1dLGZhbHNlXQ..%26dt%3D1651316838003%26bpp%3D10%26bdt%3D1456%26idt%3D977%26shv%3Dr20220427%26mjsv%3Dm202204260101%26ptt%3D9%26saldr%3Daa%26abxe%3D1%26prev_fmts%3D0x0%26nras%3D1%26correlator%3D4095428113207%26frm%3D20%26pv%3D1%26ga_vid%3D492296821.1651316837%26ga_sid%3D1651316839%26ga_hid%3D1424448548%26ga_fc%3D1%26u_tz%3D180%26u_his%3D1%26u_h%3D768%26u_w%3D1366%26u_ah%3D728%26u_aw%3D1366%26u_cd%3D24%26u_sd%3D0.9%26dm&us_privacy=${US_PRIVACY}&cachebuster=409147.9631705759";
+var ftKeyword_4232702="";
+var ftCustom_4232702="";
+var ftSection_4232702="";
+var ftSegment_4232702="";
+var ftSegmentList_4232702=[];
+var ftRuleMatch_4232702="0";
+var ftTimestamp_4232702="1651316933";
+var ftGeoC2_4232702="tr";
+var ftGeoState_4232702="33";
+var ftGeoCity_4232702="afetevler mah.";
+var ftISP_4232702="turk telekom";
+var ftSpeed_4232702="xdsl";
+var ftDMA_4232702="-1";
+var ftLong_4232702="34.56";
+var ftLat_4232702="36.79";
+var ftPostal_4232702="33110";
+var ftTimeZone_4232702="300";
+var ftMobileCarrier_4232702="";
+var ftImp4232702 = {};
+ftImp4232702.privacy = "x";
+ftImp4232702.guidAge = "673";
+ftImp4232702.impID = "F2383CEC-7838-F3F2-42A9-365D68C403C1";
+ftImp4232702.duid = "FT:4560587BC95B4F";
+
+ftImp4232702.ft_tpplid = "";
+ftImp4232702.ft_c = {};
+ftImp4232702.gdpr = "";
+ftImp4232702.gdpr_consent = "";
+ftImp4232702.gdpr_pd = "";
+ftImp4232702.oob_consent = "";
+ftImp4232702.gdprStoredConsent = "";
+ftImp4232702.us_privacy = "!!US_PRIVACY!";
+
+ftImp4232702.jsAppend = "1";
+(function(){
+    var tag = document.getElementById('ft_servedby_4232702') || (function(s){
+    	return s[s.length-1];
+    }(document.getElementsByTagName('script'))),
+           js = document.createElement('script');
+    js.src =
+"https://cdn.flashtalking.com/xre/423/4232702/3655206/js/j-4232702-3655206.js";
+    js.id = "ftscript_m4232702";
+    tag.parentNode.insertBefore(js, tag);
+}());
