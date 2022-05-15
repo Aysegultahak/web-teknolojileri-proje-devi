@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navbar ul{
+   margin-top: -80px;
+    margin-left: -30px;
+}
+.navbar ul li{
+    list-style: none;
+    display: block;
+    margin: 2px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 6px 13px;
+    font-family: Roboto;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:#44b5b8;
+    border-radius: 12px;
+}
+body{
+    background: #748492;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1000px;
+   background: #fff;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+    
+}
+.container .solTaraf{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profileText .imgbox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.iletisimBilgisi{
+    padding-top: 40px;
+}
+.baslik{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.iletisimBilgisi ul{
+    position: relative;
+}
+.iletisimBilgisi ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.iletisimBilgisi ul li .simge{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.iletisimBilgisi ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.profileText .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.container .sagTaraf{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.iletisimBilgisi2 li{
+    margin-bottom: 15px;
+}
+.iletisimBilgisi2 h5{
+    color: #03a9f4 ;
+    font-weight: 500;
+}
+.iletisimBilgisi2 h4:nth-child(2){
+    color: #fff;
+    font-weight: 500;
+}
+.iletisimBilgisi2 h4{
+    color: #fff;
+    font-weight: 300;
+}
+.iletisimBilgisi3 ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.iletisimBilgisi3 .yüzde{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #cfdbe0;
+    display: block;
+    margin-top: 5px;
+}
+.iletisimBilgisi3 .yüzde div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.iletisimBilgisi4 ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.iletisimBilgisi4 .yüzde{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #cfdbe0;
+    display: block;
+    margin-top: 5px;
+}
+.iletisimBilgisi4 .yüzde div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.hakkında{
+    margin-bottom: 50px;
+}
+.hakkında:last-child{
+    margin-bottom: 0;
+}
+.baslik2{
+    color:#003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.hakkında ul li{
+    font-size: 20px;
+}
+.hakkında p{
+    font-size: 18px;
+}

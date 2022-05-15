@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iletişim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="genel">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">THK</a>
+                
+            </div>
+            <ul>
+                <li><a href="#" class="active">ANA SAYFA</a></li>
+                <li><a href="file:///C:/Users/LENOVO/OneDrive/Masa%C3%BCst%C3%BC/ilgi%20alanlar%C4%B1m/ilgiAlanlar%C4%B1m.html# ">İLGİ ALANLARIM</a></li>
+                <li><a href="file:///C:/Users/LENOVO/OneDrive/Masa%C3%BCst%C3%BC/CV/index.html" >CV</a></li>
+                <li><a href="file:///C:/Users/LENOVO/OneDrive/Masa%C3%BCst%C3%BC/miras%C4%B1m%C4%B1z/index.html" >MİRASIMIZ</a></li>
+                <li><a href="file:///C:/Users/LENOVO/OneDrive/Masa%C3%BCst%C3%BC/web%20sitesi/index.html" >ŞEHRİM</a></li>
+                <li><a href="file:///C:/Users/LENOVO/OneDrive/Masa%C3%BCst%C3%BC/ileti%C5%9Fim/index.html" >İLETİŞİM</a></li>
+                <li><a href="file:///C:/Users/LENOVO/OneDrive/Masa%C3%BCst%C3%BC/giri%C5%9F/index.html" >GİRİŞ</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <h1>İLETİŞİM FORMU</h1>
+        <form action="iletişim.php" method="post" name="onay" id="form1" onchange="control('form1')" onkeyup="control('form1')">
+            <label class="a"></label>
+            <input type="text" placeholder="isim" name="isim" required >
+            <label class="a"></label>
+            <input type="text" placeholder="Soyisim" name="Soyisim" required>
+            <label class="a"></label>
+            <input type="text" placeholder="Email" name="email" required>
+           
+            <label>Hizmetler:</label>
+            <select name="secenek" required>
+                <option value="web tasarım" >web tasarım</option>
+                <option value="html kodlama">html kodlama</option>
+                <option value="teknik servis">teknik servis</option>
+            </select><br><br>
+         
+            <label></label>
+            <textarea type="text" placeholder="Açıklama" name="aciklama"></textarea>
+            <br>
+     
+        
+            <button type="submit">Gönder</button>
+            <button type="reset">temizle</button>
+        </form>
+    </div>
+    
+    <script src="control.js">
+      
+    </script>
+</body>
+</html>
